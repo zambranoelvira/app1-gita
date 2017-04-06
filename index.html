@@ -1,0 +1,190 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>primera aplicacion movil</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<!-->link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body>
+
+ <div data-role="page" id="principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+   <h1>Datos del alumno</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Foto de perfil</h1>
+        <div>
+         <p>Esta es mi foto de perfil: </p>
+         <br>
+        </div>
+        <div>
+          <img src="imagenes/fotoPerfil.png" width="50%" height="50%">
+        </div>
+       </div>
+      </div>
+      <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Datos generales</h2>
+             <p>Se muestra el nombre</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Fecha de nacimiento</h2>
+             <p>Se muestra el dia, mes y año de nacimiento</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Domicilio</h2>
+             <p>Muestra el domicilio del alumno</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Deporte favorito</h2>
+             <p>Muestra el deporte favorito que mas le agrada al alumno</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Otros gustos o intereses</h2>
+             <p>Muestra otros gustos del alumno</p>
+           </a>
+       </li>
+       </ul>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/koala.jpg" alt="Koala" title="Koala" id="wows1_0"/></li>
+		<li><img src="data1/images/chrysanthemum.jpg" alt="Chrysanthemum" title="Chrysanthemum" id="wows1_1"/></li>
+		<li><img src="data1/images/desert.jpg" alt="Desert" title="Desert" id="wows1_2"/></li>
+		<li><img src="data1/images/hydrangeas.jpg" alt="Hydrangeas" title="Hydrangeas" id="wows1_3"/></li>
+		<li><img src="data1/images/lighthouse.jpg" alt="Lighthouse" title="Lighthouse" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/penguins.jpg" alt="bootstrap slider" title="Penguins" id="wows1_5"/></a></li>
+		<li><img src="data1/images/tulips.jpg" alt="Tulips" title="Tulips" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Koala"><span><img src="data1/tooltips/koala.jpg" alt="Koala"/>1</span></a>
+		<a href="#" title="Chrysanthemum"><span><img src="data1/tooltips/chrysanthemum.jpg" alt="Chrysanthemum"/>2</span></a>
+		<a href="#" title="Desert"><span><img src="data1/tooltips/desert.jpg" alt="Desert"/>3</span></a>
+		<a href="#" title="Hydrangeas"><span><img src="data1/tooltips/hydrangeas.jpg" alt="Hydrangeas"/>4</span></a>
+		<a href="#" title="Lighthouse"><span><img src="data1/tooltips/lighthouse.jpg" alt="Lighthouse"/>5</span></a>
+		<a href="#" title="Penguins"><span><img src="data1/tooltips/penguins.jpg" alt="Penguins"/>6</span></a>
+		<a href="#" title="Tulips"><span><img src="data1/tooltips/tulips.jpg" alt="Tulips"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+       </div>
+       <div>
+         <h4>Aplicacion Uno</h4>
+         <h4>Elvira Muñoz Zambrano</h4>
+       </div>
+     </div>
+     </div>
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Nombre</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2>Elvira Muñoz Zambrano</h2>
+         </div>
+       </div>
+       <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicacion Uno, EMZ</h4>
+       </div>
+     </div>
+    
+    
+     <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Fecha de nacimiento</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>9 de Noviembre de 1999</h2></div>
+         </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Uno, EMZ</h4>
+        </div>
+         </div>
+       
+       
+       <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Domicilio</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>Crisantemos 2 edificio 90 departamento 5. Infonavit</h2></div>
+         </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Uno, EMZ</h4>
+        </div>
+        </div>
+      
+      
+      <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Deporte favorito</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>Tae Kwon Do</h2>
+          <img src="imagenes/deporte.jpg" width="50%" height="50%">
+         </div>
+       </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Uno, EMZ</h4>
+        </div>
+        </div>
+        
+        
+        <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Gustos e intereses</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>Zentangler Art/Mandalas</h2></div>
+          <img src="imagenes/pasatiempo.jpg" width="30%" height="50%">
+         </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Uno, EMZ</h4>
+        </div>
+       </div>
+       
+       
+       
+                                                      
+                   
+</body>
+</html>
+
+
